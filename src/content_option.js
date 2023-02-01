@@ -14,7 +14,7 @@ const introdata = {
   description:
     "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
   your_img_url:
-    "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-10.png",
+    "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-11.png",
 };
 
 const dataabout = {
