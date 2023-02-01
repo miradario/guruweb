@@ -7,14 +7,14 @@ const meta = {
 const introdata = {
   title: "We are Gurudevelopers",
   animated: {
-    first: "We are a team of creative and innovative designers and developers",
+    first: "We are a team of creative and innovative developers",
     second: "We develop websites and mobile apps",
     third: "We love what we do",
   },
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
   your_img_url:
-    "https://gurudevelopers.dev/wp-content/uploads/2023/02/Logoweb.png",
+    "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-10.png",
 };
 
 const dataabout = {
