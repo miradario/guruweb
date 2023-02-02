@@ -11,7 +11,8 @@ const introdata = {
     second: "We develop websites and mobile apps",
     third: "We love what we do",
   },
-  description: "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
+  description:
+    "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
   your_img_url: "/images/background.png",
 };
 
@@ -60,7 +61,8 @@ const skills = [
 const services = [
   {
     title: "Mobile Apps",
-    description: "Native app development 2D/3D Games Available for iOS and Android devices",
+    description:
+      "Native app development 2D/3D Games Available for iOS and Android devices",
   },
   {
     title: "Website ",
@@ -132,9 +134,9 @@ const contactConfig = {
   description: "Book a 15 minutes discovery call",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: "service_scv6jhv",
+  YOUR_TEMPLATE_ID: "template_m7kiso2",
+  YOUR_USER_ID: "yAtwHKQFMapiQzf_J",
 };
 
 const socialprofils = {
@@ -143,4 +145,15 @@ const socialprofils = {
   linkedin: "https://www.linkedin.com/company/gurudevelopers",
   twitter: "https://twitter.com",
 };
-export { meta, dataabout, dataportfolio, worktimeline, skills, services, introdata, contactConfig, socialprofils, logotext };
+export {
+  meta,
+  dataabout,
+  dataportfolio,
+  worktimeline,
+  skills,
+  services,
+  introdata,
+  contactConfig,
+  socialprofils,
+  logotext,
+};

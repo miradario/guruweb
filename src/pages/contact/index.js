@@ -20,6 +20,7 @@ export const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
+    console.log("templateParams1");
 
     const templateParams = {
       from_name: formData.email,
@@ -27,6 +28,7 @@ export const ContactUs = () => {
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
+    console.log("templateParams2", templateParams);
 
     emailjs
       .send(
@@ -143,7 +145,7 @@ export const ContactUs = () => {
                 className="form-control rounded-0"
                 id="message"
                 name="message"
-                placeholder="Message"
+                placeholder="Messages"
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
