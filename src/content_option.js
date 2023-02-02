@@ -101,7 +101,7 @@ const dataportfolio = [
     title: "Pai Social",
     description: "Convert money to a len token. Website and App",
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/White-Gray-Photo-Work-Quotes-Desktop-Wallpaper.png",
-    weblink: "https://www.pai.social",
+    weblink: "https://pai.social/",
   },
   {
     title: "Metaverse",
