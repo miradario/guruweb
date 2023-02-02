@@ -83,7 +83,7 @@ const dataportfolio = [
   {
     title: "Brainbo",
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título.png",
-    desctiption: "Brainbo. Meditate with colors. Brainbo is a meditation app that uses colors to help you relax and meditate.",
+    desctiption: "Chromotherapy and meditation app.",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Brainbo-Demo.mp4",
     weblink: "https://www.brainbo.co/",
   },
