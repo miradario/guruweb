@@ -18,7 +18,7 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <Link className="navbar-brand nav_ac" to="/">
-            <img alt="Gurudevelopers" width="225px" height="37px" class="gurudevelopers-logo" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" />
+            <div class="gurudevelopers-logo" />
           </Link>
           <div className="d-flex align-items-center">
             <Themetoggle />
