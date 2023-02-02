@@ -112,9 +112,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  github: "https://github.com/gurudevelopers",
-  facebook: "https://facebook.com/gurudevelopers",
-  linkedin: "https://www.linkedin.com/company/guru.developers/",
+  github: "https://github.com/asobral",
+  facebook: "https://facebook.com/gurudeveloper",
+  linkedin: "https://www.linkedin.com/company/gurudevelopers",
   twitter: "https://twitter.com",
 };
 export {
