@@ -18,7 +18,7 @@ const introdata = {
 };
 
 const dataabout = {
-  title: "INNOVATIVE SOLUTIONS",
+  title: "What we do",
   aboutme:
     "We constantly do research to keep updating our tools and knowledge, incorporating the latest advances. We currently, have one foot in Web 2, slowly but surely, walking toward Web 3 projects and becoming experts in the blockchain world. We are an interdisciplinary team that interacts to offer the best solutions to our clients and advise them in assembling their IT solutions.",
 };
