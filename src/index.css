@@ -6,7 +6,8 @@
   --text-color-2: #fff;
   --text-color-3: #3f79c9b3;
   --overlay-color: rgb(12 12 12 / 63%);
-  --background-image: url("http://localhost:3000/images/logo.png");
+  --logo-image: url("assets/images/logo.png");
+  --background-image: url("assets/images/background.png");
 }
 
 [data-theme="light"] {
@@ -17,7 +18,8 @@
   --text-color-2: #03357a;
   --text-color-3: #3f79c9b3;
   --overlay-color: rgb(255 255 255 / 70%);
-  --background-image: url("http://localhost:3000/images/logo_blue.png");
+  --logo-image: url("assets/images/logo_blue.png");
+  --background-image: url("assets/images/background_white.png");
 }
 
 html,
@@ -98,8 +100,12 @@ code {
 }
 
 .gurudevelopers-logo {
-  background-image: var(--background-image);
+  background-image: var(--logo-image);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.intro_sec .h_bg-image {
+  background-image: var(--background-image);
 }
