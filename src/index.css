@@ -104,6 +104,8 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 37px;
+  width: 225px;
 }
 
 .intro_sec .h_bg-image {
