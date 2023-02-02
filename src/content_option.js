@@ -11,10 +11,8 @@ const introdata = {
     second: "We develop websites and mobile apps",
     third: "We love what we do",
   },
-  description:
-    "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
-  your_img_url:
-    "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-12.png",
+  description: "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
+  your_img_url: "/images/background.png",
 };
 
 const dataabout = {
@@ -62,8 +60,7 @@ const skills = [
 const services = [
   {
     title: "Mobile Apps",
-    description:
-      "Native app development 2D/3D Games Available for iOS and Android devices",
+    description: "Native app development 2D/3D Games Available for iOS and Android devices",
   },
   {
     title: "Website ",
@@ -83,8 +80,7 @@ const dataportfolio = [
   },
   {
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título.png",
-    desctiption:
-      "Brainbo. Meditate with colors. Brainbo is a meditation app that uses colors to help you relax and meditate.",
+    desctiption: "Brainbo. Meditate with colors. Brainbo is a meditation app that uses colors to help you relax and meditate.",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Brainbo-Demo.mp4",
   },
   {
@@ -117,15 +113,4 @@ const socialprofils = {
   linkedin: "https://www.linkedin.com/company/gurudevelopers",
   twitter: "https://twitter.com",
 };
-export {
-  meta,
-  dataabout,
-  dataportfolio,
-  worktimeline,
-  skills,
-  services,
-  introdata,
-  contactConfig,
-  socialprofils,
-  logotext,
-};
+export { meta, dataabout, dataportfolio, worktimeline, skills, services, introdata, contactConfig, socialprofils, logotext };
