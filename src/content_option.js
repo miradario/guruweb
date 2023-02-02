@@ -12,7 +12,7 @@ const introdata = {
     third: "We love what we do",
   },
   description:
-    "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
+    "We develop solutions that align with the objectives of our customers and we ensure that these goals are achieved.",
   your_img_url: "/images/background.png",
 };
 
@@ -97,7 +97,7 @@ const dataportfolio = [
   },
   {
     title: "Pai Social",
-    description: "Convert money to a len token. Website and App",
+    desctiption: "Convert money to a len token. Website and App",
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/White-Gray-Photo-Work-Quotes-Desktop-Wallpaper.png",
     weblink: "https://pai.social/",
   },

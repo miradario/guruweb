@@ -75,7 +75,8 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .cursor__dot div {
@@ -110,4 +111,9 @@ code {
 
 .intro_sec .h_bg-image {
   background-image: var(--background-image);
+}
+
+.home_text {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
