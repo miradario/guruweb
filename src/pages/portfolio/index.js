@@ -44,15 +44,34 @@ export const Portfolio = () => {
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
+                  <h3 style={{ fontWeight: "bold" }}>{data.title}</h3>
                   <p>{data.desctiption}</p>
-                  {/*   <a href={data.link}>view project</a> */}
-
-                  <button
-                    className="btn ac_btn"
-                    onClick={() => openModal(data.link)}
-                  >
-                    view project
-                  </button>
+                  {data.weblink ? (
+                    <div>
+                      <a
+                        style={{ border: "none" }}
+                        href={data.weblink}
+                        target="_blank"
+                        className="none"
+                      >
+                        <button
+                          style={{ marginTop: "10px" }}
+                          className="btn ac_btn"
+                        >
+                          view website
+                        </button>
+                      </a>
+                    </div>
+                  ) : null}
+                  {data.link ? (
+                    <button
+                      style={{ marginTop: "10px" }}
+                      className="btn ac_btn"
+                      onClick={() => openModal(data.link)}
+                    >
+                      watch video
+                    </button>
+                  ) : null}
                 </div>
               </div>
             );

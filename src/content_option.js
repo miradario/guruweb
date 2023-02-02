@@ -77,26 +77,56 @@ const services = [
 
 const dataportfolio = [
   {
+    title: "Tlex Flow App",
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/iPhone-11-in-the-hand-of-a-man-beside-the-paintings_Screen-Shot-2022-09-16-at-14.25.22-1030x687.png",
-    desctiption: "Tlex Flow App. Meditation and Mindfulness App",
+    weblink: "https://www.tlexflow.app/",
+    desctiption: "Meditation and Mindfulness App",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2019/10/WhatsApp-Video-2022-09-20-at-1.05.22-PM.mp4",
   },
   {
+    title: "Brainbo",
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título.png",
     desctiption:
-      "Brainbo. Meditate with colors. Brainbo is a meditation app that uses colors to help you relax and meditate.",
+      "Meditate with colors. Mditation app that uses colors to help you relax.",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Brainbo-Demo.mp4",
+    weblink: "https://www.brainbo.co/",
   },
   {
+    title: "Moevius",
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/moeviius1-1030x687.png",
-    desctiption: "Moevius. React Native Game",
+    desctiption: "Music Game",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Metaverse-GD-1.mp4",
   },
   {
+    title: "Pai Social",
+    description: "Convert money to a len token. Website and App",
+    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/White-Gray-Photo-Work-Quotes-Desktop-Wallpaper.png",
+    weblink: "https://www.pai.social",
+  },
+  {
+    title: "Metaverse",
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/metaverse-1-1030x588.jpeg",
-    desctiption: "Metaverse: Decentraland SDK,Modeling, Games, Smart Contract",
-
+    desctiption: "Decentraland SDK and Modeling",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Metaverse-GD-1.mp4",
+    weblink: "https://play.decentraland.org/?position=5,-128",
+  },
+  {
+    title: "Eter Studio",
+    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/iMac-on-the-minimalist-white-desk-with-decorations-and-teapot-_Eter-1030x686.png",
+    desctiption: "Virtual world company Website",
+    weblink: "https://www.eter.studio/",
+  },
+  {
+    title: "Pithia",
+    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-3.png",
+    desctiption: "Odds and stats React Website",
+    weblink: "https://www.pithiasports.com/",
+  },
+  {
+    title: "Alic",
+    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/alic-2-1030x777.jpg",
+    desctiption: "Ecommerce Website",
+    weblink: "https://alic.com.ar/",
   },
 ];
 
