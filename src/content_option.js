@@ -14,7 +14,7 @@ const introdata = {
   description:
     "We design and develop solutions that align with the objectives of our customers and after deploying them we provide premium support to ensure that these goals are achieved.",
   your_img_url:
-    "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-11.png",
+    "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-12.png",
 };
 
 const dataabout = {
@@ -24,19 +24,19 @@ const dataabout = {
 };
 const worktimeline = [
   {
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
+    jobtitle: "Agustín sobral",
+    where: "Cofounder",
+    date: "React Native IOS Developer",
   },
   {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
+    jobtitle: "Darío Mira",
+    where: "Cofounder",
+    date: "React Native Android Developer",
   },
   {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
+    jobtitle: "Nadia Aguidak",
+    where: "",
+    date: "Designer",
   },
 ];
 
@@ -90,7 +90,13 @@ const dataportfolio = [
   {
     img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/moeviius1-1030x687.png",
     desctiption: "Moevius. React Native Game",
-    link: "#",
+    link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Metaverse-GD-1.mp4",
+  },
+  {
+    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/metaverse-1-1030x588.jpeg",
+    desctiption: "Metaverse: Decentraland SDK,Modeling, Games, Smart Contract",
+
+    link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Metaverse-GD-1.mp4",
   },
 ];
 
