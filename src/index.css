@@ -6,6 +6,7 @@
   --text-color-2: #fff;
   --text-color-3: rgb(204, 0, 0);
   --overlay-color: rgb(12 12 12 / 63%);
+  --background-image: url("http://localhost:3000/images/logo.png");
 }
 
 [data-theme="light"] {
@@ -16,6 +17,7 @@
   --text-color-2: #03357a;
   --text-color-3: rgb(204, 0, 0);
   --overlay-color: rgb(255 255 255 / 70%);
+  --background-image: url("http://localhost:3000/images/logo_blue.png");
 }
 
 html,
@@ -71,8 +73,7 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .cursor__dot div {
@@ -94,4 +95,11 @@ code {
 
 .color_sec {
   color: var(--secondary-color);
+}
+
+.gurudevelopers-logo {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
