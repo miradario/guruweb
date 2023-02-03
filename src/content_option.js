@@ -11,8 +11,7 @@ const introdata = {
     second: "We develop websites and mobile apps",
     third: "We love what we do",
   },
-  description:
-    "We develop solutions that align with the objectives of our customers and we ensure that these goals are achieved.",
+  description: "We develop solutions that align with the objectives of our customers and we ensure that these goals are achieved.",
   your_img_url: "/images/background.png",
 };
 
@@ -61,8 +60,7 @@ const skills = [
 const services = [
   {
     title: "Mobile Apps",
-    description:
-      "Native app development 2D/3D Games Available for iOS and Android devices",
+    description: "Native app development 2D/3D Games Available for iOS and Android devices",
   },
   {
     title: "Website ",
@@ -77,52 +75,52 @@ const services = [
 const dataportfolio = [
   {
     title: "Tlex Flow App",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/iPhone-11-in-the-hand-of-a-man-beside-the-paintings_Screen-Shot-2022-09-16-at-14.25.22-1030x687.png",
+    img: "/images/tlex-flow.png",
     weblink: "https://www.tlexflow.app/",
     desctiption: "Meditation and Mindfulness App",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2019/10/WhatsApp-Video-2022-09-20-at-1.05.22-PM.mp4",
   },
   {
     title: "Brainbo",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título.png",
+    img: "/images/brainbo.png",
     desctiption: "Chromotherapy and meditation app.",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Brainbo-Demo.mp4",
     weblink: "https://www.brainbo.co/",
   },
   {
     title: "Moevius",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/moeviius1-1030x687.png",
+    img: "/images/moevius.png",
     desctiption: "Music Game",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Metaverse-GD-1.mp4",
   },
   {
     title: "Pai Social",
     desctiption: "Convert money to a len token. Website and App",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/White-Gray-Photo-Work-Quotes-Desktop-Wallpaper.png",
+    img: "/images/pai.png",
     weblink: "https://pai.social/",
   },
   {
     title: "Metaverse",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/metaverse-1-1030x588.jpeg",
+    img: "/images/metaverse.jpeg",
     desctiption: "Decentraland SDK and Modeling",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Metaverse-GD-1.mp4",
     weblink: "https://play.decentraland.org/?position=5,-128",
   },
   {
     title: "Eter Studio",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/iMac-on-the-minimalist-white-desk-with-decorations-and-teapot-_Eter-1030x686.png",
+    img: "/images/eter.png",
     desctiption: "Virtual world company Website",
     weblink: "https://www.eter.studio/",
   },
   {
     title: "Pithia",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/Diseño-sin-título-3.png",
+    img: "/images/pithia.png",
     desctiption: "Odds and stats React Website",
     weblink: "https://www.pithiasports.com/",
   },
   {
     title: "Alic",
-    img: "https://gurudevelopers.dev/wp-content/uploads/2023/02/alic-2-1030x777.jpg",
+    img: "/images/alic.jpeg",
     desctiption: "Ecommerce Website",
     weblink: "https://alic.com.ar/",
   },
@@ -145,15 +143,4 @@ const socialprofils = {
   linkedin: "https://www.linkedin.com/company/gurudevelopers",
   twitter: "https://twitter.com",
 };
-export {
-  meta,
-  dataabout,
-  dataportfolio,
-  worktimeline,
-  skills,
-  services,
-  introdata,
-  contactConfig,
-  socialprofils,
-  logotext,
-};
+export { meta, dataabout, dataportfolio, worktimeline, skills, services, introdata, contactConfig, socialprofils, logotext };
