@@ -11,7 +11,8 @@ const introdata = {
     second: "We develop websites and mobile apps",
     third: "We love what we do",
   },
-  description: "We develop solutions that align with the objectives of our customers and we ensure that these goals are achieved.",
+  description:
+    "We develop solutions that align with the objectives of our customers and we ensure that these goals are achieved.",
   your_img_url: "/images/background.png",
 };
 
@@ -60,7 +61,8 @@ const skills = [
 const services = [
   {
     title: "Mobile Apps",
-    description: "Native app development 2D/3D Games Available for iOS and Android devices",
+    description:
+      "Native app development 2D/3D Games Available for iOS and Android devices",
   },
   {
     title: "Website ",
@@ -91,7 +93,7 @@ const dataportfolio = [
     title: "Moevius",
     img: "/images/moevius.png",
     desctiption: "Music Game",
-    link: "https://gurudevelopers.com.ar/wp-content/uploads/2022/09/Metaverse-GD-1.mp4",
+    link: "https://gurudevelopers.com.ar/wp-content/uploads/2023/02/Moevius.mp4",
   },
   {
     title: "Pai Social",
@@ -143,4 +145,15 @@ const socialprofils = {
   linkedin: "https://www.linkedin.com/company/gurudevelopers",
   twitter: "https://twitter.com",
 };
-export { meta, dataabout, dataportfolio, worktimeline, skills, services, introdata, contactConfig, socialprofils, logotext };
+export {
+  meta,
+  dataabout,
+  dataportfolio,
+  worktimeline,
+  skills,
+  services,
+  introdata,
+  contactConfig,
+  socialprofils,
+  logotext,
+};
