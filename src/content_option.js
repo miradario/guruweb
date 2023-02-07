@@ -26,13 +26,13 @@ const worktimeline = [
     img: "/images/AgusAvatar.png",
     jobtitle: "Agustín sobral",
     where: "Cofounder",
-    date: "React Native IOS Developer",
+    date: "Senior React Native Developer IOS",
   },
   {
     img: "/images/DaroAvatar.png",
     jobtitle: "Darío Mira",
     where: "Cofounder",
-    date: "React Native Android Developer",
+    date: "Senior React Native Developer Android",
   },
   {
     img: "/images/NadiaAvatarok.png",
@@ -44,7 +44,7 @@ const worktimeline = [
     img: "/images/hariAvatarok.png",
     jobtitle: "Harald Solaas",
     where: "",
-    date: "Developer Senior Full Stack",
+    date: "Senior Developer Full Stack",
   },
   {
     img: "/images/DariAvatar.png",
