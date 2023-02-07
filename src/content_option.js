@@ -38,7 +38,7 @@ const worktimeline = [
     img: "/images/NadiaAvatarok.png",
     jobtitle: "Nadia Aguidak",
     where: "",
-    date: "Designer",
+    date: "UI/UX Designer",
   },
   {
     img: "/images/hariAvatarok.png",
@@ -57,6 +57,12 @@ const worktimeline = [
     jobtitle: "Pedro Dorr",
     where: "",
     date: "Developer Solidity",
+  },
+  {
+    img: "/images/PedroAvatar.png",
+    jobtitle: "Pablo Lopez Andura",
+    where: "",
+    date: "Developer",
   },
 ];
 
