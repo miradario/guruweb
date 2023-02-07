@@ -45,6 +45,21 @@ export const About = () => {
                 {worktimeline.map((data, i) => {
                   return (
                     <tr key={i}>
+                      <th scope="row">
+                        <div className="img-wrapper">
+                          <img
+                            src={data.img}
+                            alt=""
+                            style={{
+                              width: 50,
+                              height: 50,
+
+                              borderRadius: 50,
+                              padding: 5,
+                            }}
+                          />
+                        </div>
+                      </th>
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
                       <td>{data.date}</td>

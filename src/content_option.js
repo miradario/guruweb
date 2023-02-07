@@ -23,19 +23,40 @@ const dataabout = {
 };
 const worktimeline = [
   {
+    img: "/images/AgusAvatar.png",
     jobtitle: "Agustín sobral",
     where: "Cofounder",
     date: "React Native IOS Developer",
   },
   {
+    img: "/images/DaroAvatar.png",
     jobtitle: "Darío Mira",
     where: "Cofounder",
     date: "React Native Android Developer",
   },
   {
+    img: "/images/NadiaAvatarok.png",
     jobtitle: "Nadia Aguidak",
     where: "",
     date: "Designer",
+  },
+  {
+    img: "/images/HariAvatarok.png",
+    jobtitle: "Harald Solaas",
+    where: "",
+    date: "Developer Senior Full Stack",
+  },
+  {
+    img: "/images/DariAvatar.png",
+    jobtitle: "Darío Hoyos",
+    where: "",
+    date: "Developer Full Stack",
+  },
+  {
+    img: "/images/PedroAvatar.png",
+    jobtitle: "Pedro Dorr",
+    where: "",
+    date: "Developer Solidity",
   },
 ];
 
