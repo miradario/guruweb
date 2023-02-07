@@ -24,14 +24,14 @@ const dataabout = {
 const worktimeline = [
   {
     img: "/images/AgusAvatar.png",
-    jobtitle: "Agustín sobral",
-    where: "Cofounder",
+    jobtitle: "Agustín Sobral",
+    where: "Co-founder",
     date: "Senior React Native Developer ",
   },
   {
     img: "/images/DaroAvatar.png",
     jobtitle: "Darío Mira",
-    where: "Cofounder",
+    where: "Co-founder",
     date: "Senior React Native Developer ",
   },
   {
