@@ -44,25 +44,25 @@ const worktimeline = [
     img: "/images/hariAvatarok.png",
     jobtitle: "Harald Solaas",
     where: "",
-    date: "Senior Developer Full Stack",
+    date: "Senior React Developer",
   },
   {
     img: "/images/DariAvatarok.jpg",
     jobtitle: "Darío Hoyos",
     where: "",
-    date: "Developer Full Stack",
+    date: "Full Stack Developer",
   },
   {
     img: "/images/pedroAvatarok.png",
     jobtitle: "Pedro Dorr",
     where: "",
-    date: "Developer Solidity",
+    date: "Solidity Developer",
   },
   {
     img: "/images/pabloAvatar.png",
     jobtitle: "Pablo Lopez Andura",
     where: "",
-    date: "Developer",
+    date: "Full Stack Developer",
   },
 ];
 
