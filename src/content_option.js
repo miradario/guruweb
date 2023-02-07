@@ -59,7 +59,7 @@ const worktimeline = [
     date: "Developer Solidity",
   },
   {
-    img: "/images/PedroAvatar.png",
+    img: "/images/pabloAvatar.png",
     jobtitle: "Pablo Lopez Andura",
     where: "",
     date: "Developer",
