@@ -41,7 +41,7 @@ const worktimeline = [
     date: "Designer",
   },
   {
-    img: "/images/HariAvatarok.png",
+    img: "/images/hariAvatarok.png",
     jobtitle: "Harald Solaas",
     where: "",
     date: "Developer Senior Full Stack",

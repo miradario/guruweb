@@ -53,7 +53,6 @@ export const About = () => {
                             style={{
                               width: 50,
                               height: 50,
-
                               borderRadius: 50,
                               padding: 5,
                             }}
