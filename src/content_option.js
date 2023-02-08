@@ -103,6 +103,7 @@ const services = [
 
 const dataportfolio = [
   {
+    type: "App",
     title: "Tlex Flow App",
     img: "/images/tlex-flow.png",
     weblink: "https://www.tlexflow.app/",
@@ -110,6 +111,7 @@ const dataportfolio = [
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2019/10/WhatsApp-Video-2022-09-20-at-1.05.22-PM.mp4",
   },
   {
+    type: "App",
     title: "Brainbo",
     img: "/images/brainbo.png",
     desctiption: "Chromotherapy and meditation app.",
@@ -117,18 +119,21 @@ const dataportfolio = [
     weblink: "https://www.brainbo.co/",
   },
   {
+    type: "App",
     title: "Moevius",
     img: "/images/moevius.png",
     desctiption: "Music Game",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2023/02/Moevius.mp4",
   },
   {
+    type: "Web3",
     title: "Pai Social",
     desctiption: "Convert money to a len token. Website and App",
     img: "/images/pai.png",
     weblink: "https://pai.social/",
   },
   {
+    type: "Web3",
     title: "Metaverse",
     img: "/images/metaverse.jpeg",
     desctiption: "Decentraland SDK and Modeling",
@@ -136,18 +141,21 @@ const dataportfolio = [
     weblink: "https://play.decentraland.org/?position=5,-128",
   },
   {
+    type: "Web",
     title: "Eter Studio",
     img: "/images/eter.png",
     desctiption: "Virtual world company Website",
     weblink: "https://www.eter.studio/",
   },
   {
+    type: "Web",
     title: "Pithia",
     img: "/images/pithia.png",
     desctiption: "Odds and stats React Website",
     weblink: "https://www.pithiasports.com/",
   },
   {
+    type: "Web",
     title: "Alic",
     img: "/images/alic.jpeg",
     desctiption: "Ecommerce Website",

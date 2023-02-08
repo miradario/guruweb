@@ -15,6 +15,35 @@ export const Portfolio = () => {
     setLink(link);
   }
 
+  //add filter to portfolio items
+  const [filter, setFilter] = useState("all");
+  const filterItems = (filter) => {
+    setFilter(filter);
+  };
+
+  // filter portfolio items
+  const filteredItems = dataportfolio.filter((item) => {
+    if (filter === "all") {
+      return item;
+    } else if (item.type === filter) {
+      return item;
+    }
+  });
+
+  // add class when to button when filtered
+  const activeClass = (filter) => {
+    if (filter === "all") {
+      return "btn btn-primary";
+    } else if (filter === "Web") {
+      return "btn btn-primary";
+    } else if (filter === "App") {
+      return "btn btn-primary";
+    } else if (filter === "Web3") {
+      return "btn btn-primary";
+    }
+    console.log(filter);
+  };
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -30,6 +59,41 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+
+        <Row className="mb-5 mt-3 pt-md-3">
+          <Col lg="8">
+            <button
+              className="btn btn-primary "
+              style={{ marginRight: "10px" }}
+              onClick={() => filterItems("all")}
+            >
+              All
+            </button>
+            <button
+              className="btn btn-primary "
+              style={{ marginRight: "10px" }}
+              {...activeClass(filter)}
+              onClick={() => filterItems("Web")}
+            >
+              Web
+            </button>
+            <button
+              className="btn btn-primary "
+              style={{ marginRight: "10px" }}
+              onClick={() => filterItems("App")}
+            >
+              App
+            </button>
+            <button
+              className="btn btn-primary "
+              style={{ marginRight: "10px" }}
+              onClick={() => filterItems("Web3")}
+            >
+              Web3
+            </button>
+          </Col>
+        </Row>
+
         <ModalVideo
           className="modal-video-movie-wrap"
           url={link}
@@ -39,7 +103,7 @@ export const Portfolio = () => {
           dismissBtnMessage
         />
         <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
+          {filteredItems.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
