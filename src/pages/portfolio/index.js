@@ -63,14 +63,18 @@ export const Portfolio = () => {
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
             <button
-              className="btn btn-primary "
+              className={
+                "btn btn-primary " + (filter === "all" ? " active " : "")
+              }
               style={{ marginRight: "10px" }}
               onClick={() => filterItems("all")}
             >
               All
             </button>
             <button
-              className="btn btn-primary "
+              className={
+                "btn btn-primary " + (filter === "Web" ? " active " : "")
+              }
               style={{ marginRight: "10px" }}
               {...activeClass(filter)}
               onClick={() => filterItems("Web")}
@@ -78,14 +82,18 @@ export const Portfolio = () => {
               Web
             </button>
             <button
-              className="btn btn-primary "
+              className={
+                "btn btn-primary " + (filter === "App" ? " active " : "")
+              }
               style={{ marginRight: "10px" }}
               onClick={() => filterItems("App")}
             >
               App
             </button>
             <button
-              className="btn btn-primary "
+              className={
+                "btn btn-primary " + (filter === "Web3" ? " active " : "")
+              }
               style={{ marginRight: "10px" }}
               onClick={() => filterItems("Web3")}
             >
