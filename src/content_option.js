@@ -161,6 +161,41 @@ const dataportfolio = [
     desctiption: "Ecommerce Website",
     weblink: "https://alic.com.ar/",
   },
+  {
+    type: "Web",
+    title: "Promax",
+    img: "/images/Promax.png",
+    desctiption: "Hubspot Calculator Website",
+    weblink: "https://www.promax.com/pricing-calculator",
+  },
+  {
+    type: "Web",
+    title: "Bioefia",
+    img: "/images/bioefia.png",
+    desctiption: "Bioefia System Website",
+    weblink: "http://bioefiasg.com.ar/",
+  },
+  {
+    type: "App",
+    title: "Urantia",
+    img: "/images/urantia.png",
+    desctiption: "urantia book",
+    //weblink: "https://play.google.com/store/apps/details?id=com.urantia",
+  },
+  {
+    type: "Web",
+    title: "Art of living membership site",
+    img: "/images/membresia.png",
+    desctiption: "Art of living membership site Website",
+    weblink: "https://www.membresia.org/",
+  },
+  {
+    type: "App",
+    title: "Art of living teachers app",
+    img: "/images/aolSKY.png",
+    desctiption: "Teachers Art of living App",
+    link: "https://gurudevelopers.com.ar/wp-content/uploads/2023/02/appAOLSKY.mov",
+  },
 ];
 
 const contactConfig = {
