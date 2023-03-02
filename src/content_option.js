@@ -185,7 +185,7 @@ const dataportfolio = [
   {
     type: "App",
     title: "Grupo Casa",
-    img: "/images/membresia.png",
+    img: "/images/gc_site.jpg",
     desctiption: "Web3 App Real Estate and Blockchain",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2023/03/VideoGrupoCasa.mp4",
   },
