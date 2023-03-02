@@ -19,7 +19,7 @@ const introdata = {
 const dataabout = {
   title: "What we do",
   aboutme:
-    "We constantly do research to keep updating our tools and knowledge, incorporating the latest advances. We currently, have one foot in Web 2, slowly but surely, walking toward Web 3 projects and becoming experts in the blockchain world. We are an interdisciplinary team that interacts to offer the best solutions to our clients and advise them in assembling their IT solutions.",
+    "At Gurudevelopers, we're committed to staying at the forefront of technology. We invest in ongoing research to keep our tools and knowledge up to date, incorporating the latest advances in the industry. With one foot firmly planted in Web 2.0 and the other in Web 3.0, we're well positioned to tackle the most cutting-edge projects and offer expert guidance in the rapidly evolving world of blockchain. Our interdisciplinary team is made up of experts in a wide range of fields, from design and development to project management and beyond. We collaborate closely to offer the best possible solutions to our clients and help them assemble the perfect IT solutions for their unique needs. Whether you need a sleek and modern website, a fully functional mobile app, or an innovative blockchain-based project, we have the skills and expertise to bring your vision to life.",
 };
 const worktimeline = [
   {
