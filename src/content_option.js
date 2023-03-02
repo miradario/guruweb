@@ -183,19 +183,26 @@ const dataportfolio = [
     //weblink: "https://play.google.com/store/apps/details?id=com.urantia",
   },
   {
+    type: "App",
+    title: "Grupo Casa",
+    img: "/images/membresia.png",
+    desctiption: "Web3 App Real Estate and Blockchain",
+    link: "https://gurudevelopers.com.ar/wp-content/uploads/2023/03/VideoGrupoCasa.mp4",
+  },
+  {
     type: "Web",
     title: "Art of living membership site",
     img: "/images/membresia.png",
     desctiption: "Art of living membership site Website",
     weblink: "https://www.membresia.org/",
   },
-  {
+  /* {
     type: "App",
     title: "Art of living teachers app",
     img: "/images/aolSKY.png",
     desctiption: "Teachers Art of living App",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2023/02/appAOLSKY.mov",
-  },
+  }, */
 ];
 
 const contactConfig = {
