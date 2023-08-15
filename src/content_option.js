@@ -11,8 +11,7 @@ const introdata = {
     second: "We develop websites and mobile apps",
     third: "We love what we do",
   },
-  description:
-    "We develop solutions that align with the objectives of our customers and we ensure that these goals are achieved.",
+  description: "We develop solutions that align with the objectives of our customers and we ensure that these goals are achieved.",
   your_img_url: "/images/background.png",
 };
 
@@ -88,8 +87,7 @@ const skills = [
 const services = [
   {
     title: "Mobile Apps",
-    description:
-      "Native app development 2D/3D Games Available for iOS and Android devices",
+    description: "Native app development 2D/3D Games Available for iOS and Android devices",
   },
   {
     title: "Website ",
@@ -122,7 +120,7 @@ const dataportfolio = [
     type: "App",
     title: "Moevius",
     img: "/images/moevius.png",
-    desctiption: "Music Game",
+    desctiption: "Music Trivia Game",
     link: "https://gurudevelopers.com.ar/wp-content/uploads/2023/02/Moevius.mp4",
   },
   {
@@ -149,9 +147,9 @@ const dataportfolio = [
   },
   {
     type: "Web",
-    title: "Pithia",
+    title: "Sports Stats Website",
     img: "/images/pithia.png",
-    desctiption: "Odds and stats React Website",
+    desctiption: "Based on React",
     weblink: "https://www.pithiasports.com/",
   },
   {
@@ -163,9 +161,9 @@ const dataportfolio = [
   },
   {
     type: "Web",
-    title: "Promax",
+    title: "Dynamic Price Calculator",
     img: "/images/Promax.png",
-    desctiption: "Hubspot Calculator Website",
+    desctiption: "Hubspot integration",
     weblink: "https://www.promax.com/pricing-calculator",
   },
   {
@@ -177,9 +175,9 @@ const dataportfolio = [
   },
   {
     type: "App",
-    title: "Urantia",
+    title: "Book reading app",
     img: "/images/urantia.png",
-    desctiption: "urantia book",
+    desctiption: "React Native mobile app",
     //weblink: "https://play.google.com/store/apps/details?id=com.urantia",
   },
   {
@@ -222,15 +220,4 @@ const socialprofils = {
   linkedin: "https://www.linkedin.com/company/gurudevelopers",
   twitter: "https://twitter.com",
 };
-export {
-  meta,
-  dataabout,
-  dataportfolio,
-  worktimeline,
-  skills,
-  services,
-  introdata,
-  contactConfig,
-  socialprofils,
-  logotext,
-};
+export { meta, dataabout, dataportfolio, worktimeline, skills, services, introdata, contactConfig, socialprofils, logotext };
